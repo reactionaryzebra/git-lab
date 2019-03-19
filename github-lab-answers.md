@@ -10,4 +10,7 @@
 
 1) git branch -b branchname
 2) git checkout branchname
-3) You should work on a branch other than master so that master can be maintained as a fully functional working version of your product. 
+3) You should work on a branch other than master so that master can be maintained as a fully functional working version of your product.
+
+1) git merge should be used when you want to add changes that you have made on a separate branch to the master branch.  You would use git merge when you are the owner of the master and the one working on the branch.  If you are not maintaining the master, or there are multiple people working on the code it may make sense to submit a pull request instead of forcing a merge yourself.
+2) git push origin master
